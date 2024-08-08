@@ -27,7 +27,7 @@
 <body class="by-gray-100">
     <div>
 <!--COMPONENT ONE: NAVIGATION-->
-        <div class="mx-auto bg-white">
+        <div class="mx-auto my-0 bg-white">
             <!-- Main container with navigation and header content -->
              <div class="relative flex flex-wrap items-center justify-between w-full shirk-0">
                 <!--Logo-->
@@ -35,11 +35,11 @@
                     <img class="h-8" src="assets/component-1/navigation/cache-bank-logo.png">
                 </div>
                 <!--Section headings-->
-                <div class=" sm:hidden md:hidden md:flex items-center justify-between text-black gap-12">
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Product</a>
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Features</a>
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Get Started</a>
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Contact</a>
+                <div class=" hidden lg:flex items-center justify-between text-black gap-16">
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
                 </div>
                 <!--Login in and Sign in button-->
                 <div class="hidden gap-8 p-4 items-center md:flex">
@@ -47,7 +47,7 @@
                     <button class="text-sm font-bold text-blue bg-green-500 rounded-xl px-4 py-2 hover:bg-pink-500">Sign Up</button>
                 </div>
                 <!--hamburger svg button (not inside a div container)-->
-                <button class="p-4 md:hidden" id="mobile-menu-toggle" >
+                <button class="flex justify-end p-4 md:hidden" id="mobile-menu-toggle" >
                     <svg>
                         fill="none"
                         viewBox="0 0 24 24"
@@ -77,12 +77,12 @@
                     </svg>
                 </button>
                 <!--Mobile menu div-->
-                <div id="mobile-menu" class="absolute hidden md:hidden flex md:flex flex-col items-start justify-center w-full gap-3 bg-white overflow-hidden max-h-screen top-full px-4 py-8 shadow-main">
+                <div id="mobile-menu" class="absolute hidden md:hidden flex md:flex flex-col items-start justify-center w-full gap-3 bg-white overflow-hidden top-full px-4 py-0 shadow-main">
                 <!--Removed the div's because properties were overriding main container-->    
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Product</a>
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Features</a>
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Get Started</a>
-                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="">Contact</a>
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
+                    <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
                     
                     <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
                     <button class="text-sm font-bold text-blue bg-green-500 rounded-xl px-4 py-2 hover:bg-pink-500">Sign Up</button>
@@ -92,7 +92,7 @@
         </div>
 <!--COMPONENT TWO: HERO AND ENDORSEMENTS-->
         <!--Hero section-->
-        <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
+        <section id="Hero" class="grid w-full grid-cols-1 my-auto mt-10 mb-8 px-5 md:grid-cols-2 xl:gap-14 md:gap-5 ">
             <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
                 <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
                     The Clever Place to Keep Your Cache 
@@ -170,7 +170,7 @@
             </div>
         </section>
 <!--COMPONENT THREE: FEATURES GRID-->
-        <div class="container mx-auto py-10 flex flex-col justify-center items-center">
+        <div id="Features" class="container mx-auto py-10 flex flex-col justify-center items-center">
             <!--Title and paragraph container-->
             <div class="flex flex-col items-center justify-center mt-12">
                 <h1 class="mb-4 text-3xl lg:text-4xl font-extrabold text-dark-grey-900 text-center ">Elevate Your Banking with Cache</h1>
@@ -274,7 +274,7 @@
             </div>
         </div>
 <!--COMPONENT FOUR: STATS AND GETTING STARTED-->
-        <div class="w-full">
+        <div id="Getting-started" class="w-full">
         <!--CONTAINER DIV TO HOLD ALL STATS-->
            <div class="container flex flex-col items-center gap-16 mx-auto my- 32">
                 <div class="grid w-full grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-y-8" >
@@ -348,7 +348,7 @@
         </div>
 <!--COMPONENT FIVE: CONTACT AND FOOTER-->
     <!--CONTACT-->
-        <div class="w-full">
+        <div id="Contact" class="w-full">
             <!--Container div-->
             <div class="container flex flex-col items-center gap-16 mx-auto my-32">
                 <!--Grid items div-->
@@ -365,7 +365,7 @@
                         <!--DETAILS-->
                         <p class="text-2xl font-extrabold text-dark-grey-900">Email</p>
                         <p class="text-base leading-7 text-dark-grey-600">Contact us at</p>
-                        <p class="text-lg font-bold text-green-500" href="mailto: hello@loople.com ">hi@cachebank.com</p>
+                        <a class="text-lg font-bold text-green-500" href="mailto: hello@loople.com ">hi@cachebank.com</a>
                     </div>
                      <!--contact card 2-->
                      <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main ">
@@ -378,7 +378,7 @@
                         <!--DETAILS-->
                         <p class="text-2xl font-extrabold text-dark-grey-900">Phone</p>
                         <p class="text-base leading-7 text-dark-grey-600">Reach out to us by phone</p>
-                        <p class="text-lg font-bold text-green-500" href="tel:+516-486-5135">+215-486-5135</p>
+                        <a class="text-lg font-bold text-green-500" href="tel:+516-486-5135">+215-486-5135</a>
                     </div>
                      <!--contact card 3-->
                      <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main ">
