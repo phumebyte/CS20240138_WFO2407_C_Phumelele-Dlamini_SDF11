@@ -25,66 +25,64 @@
 </head>
 
 <body class="by-gray-100">
-<!--COMPONENT ONE: NAVIGATION-->
-    <!-- Navigation Bar -->
-    <div class="mx-auto bg-white px-4 py-4 sticky top-0">
-        <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
-            <!-- Logo -->
-            <div class="px-4">
-                <img class="h-8" src="assets/component-1/navigation/cache-bank-logo.png" alt="Company Logo">
-            </div>
-            <!-- Desktop Menu -->
-            <div class="hidden md:flex items-center justify-between gap-12 text-black"> 
-                <!-- Navigation Links for Desktop -->
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
-            </div>
-            <!--Buttons -->
-            <div class="hidden md:flex items-center gap-8">
-                <!-- Log In Button -->
-                    <a href="https://accounts.random.org/">
-                        <button class="text-sm font-bold text-blue-700 hover:text-dark-grey-900">Log In</button>
-                    </a>
-                <!-- Sign Up Button -->
-                    <a href="https://accounts.random.org/">
-                        <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
-                    </a>
-            </div>
-             <!--Hamburger svg button (not inside a div container)-->
-            <button class="md:hidden p-4" id="mobile-menu-toggle">
-                <!--SVG-->
-                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
-                    <g clip-path="url(#clip0_429_11066)">
-                        <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_429_11066">
-                            <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"></rect>
-                        </clipPath>
-                    </defs>
-                </svg>
-            </button>
-            <!-- Mobile Menu-->
-            <div class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4 hidden" id="mobile-menu"> 
-                <!-- Navigation Links for Mobile -->
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
-                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
-            </div>
+<!-- COMPONENT ONE: NAVIGATION -->
+<div class="mx-auto bg-white px-4 py-4 sticky top-0">
+    <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
+        <!-- Logo -->
+        <div class="px-4">
+            <img class="h-8" src="assets/component-1/navigation/cache-bank-logo.png" alt="Company Logo">
+        </div>
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center justify-between gap-12 text-black"> 
+            <!-- Navigation Links for Desktop -->
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
+        </div>
+        <!-- Desktop Buttons -->
+        <div class="hidden md:flex items-center gap-8">
+            <!-- Log In Button -->
+            <a href="https://accounts.random.org/">
+                <button class="text-sm font-bold text-blue-700 hover:text-dark-grey-900">Log In</button>
+            </a>
+            <!-- Sign Up Button -->
+            <a href="https://accounts.random.org/">
+                <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
+            </a>
+        </div>
+        <!-- Hamburger svg button (not inside a div container)-->
+        <button class="md:hidden p-4" id="mobile-menu-toggle">
+            <!-- SVG -->
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+                <g clip-path="url(#clip0_429_11066)">
+                    <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <defs>
+                    <clipPath id="clip0_429_11066">
+                        <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"></rect>
+                    </clipPath>
+                </defs>
+            </svg>
+        </button>
+        <!-- Mobile Menu -->
+        <div class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4 hidden" id="mobile-menu"> 
+            <!-- Navigation Links for Mobile -->
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
+            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
             <!-- Mobile Buttons -->
-            <button class="flex items-center px-4 py-2 text-sm font-normal text-black">
-                Log In
-            </button>
-            <button class="flex items-center px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">
-                <a href="https://accounts.random.org/">
-                    Sign Up
-                </a>
-            </button>
+            <a href="https://accounts.random.org/">
+                <button class="text-sm font-normal text-black">Log In</button>
+            </a>
+            <a href="https://accounts.random.org/">
+                <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
+            </a>
         </div>
     </div>
+</div>
+
 
 <!--COMPONENT TWO: HERO AND ENDORSEMENTS-->
         <!--Hero section-->
