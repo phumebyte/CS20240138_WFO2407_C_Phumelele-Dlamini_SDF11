@@ -26,63 +26,62 @@
 
 <body class="by-gray-100">
 <!-- COMPONENT ONE: NAVIGATION -->
-<div class="mx-auto bg-white px-4 py-4 sticky top-0">
-    <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
-        <!-- Logo -->
-        <div class="px-4">
-            <img class="h-8" src="assets/component-1/navigation/cache-bank-logo.png" alt="Company Logo">
-        </div>
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex items-center justify-between gap-12 text-dark-grey-900"> 
-            <!-- Navigation Links for Desktop -->
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
-        </div>
-        <!-- Desktop Buttons -->
-        <div class="hidden md:flex items-center gap-8">
-            <!-- Log In Button -->
-            <a href="https://accounts.random.org/" target="_blank">
-                <button class="text-sm font-bold text-green-700 hover:text-dark-grey-900">Log In</button>
-            </a>
-            <!-- Sign Up Button -->
-            <a href="https://accounts.random.org/" target="_blank">
-                <button class="px-4 py-2 text-sm font-bold text-dark-grey-700 bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
-            </a>
-        </div>
-        <!-- Hamburger svg button (not inside a div container)-->
-        <button class="md:hidden p-4" id="mobile-menu-toggle">
-            <!-- SVG -->
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
-                <g clip-path="url(#clip0_429_11066)">
-                    <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </g>
-                <defs>
-                    <clipPath id="clip0_429_11066">
-                        <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"></rect>
-                    </clipPath>
-                </defs>
-            </svg>
-        </button>
-        <!-- Mobile Menu -->
-        <div class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4 hidden" id="mobile-menu"> 
-            <!-- Navigation Links for Mobile -->
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
-            <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
-            <!-- Mobile Buttons -->
-            <a href="https://accounts.random.org/" target="_blank">
-                <button class="text-sm font-normal text-black">Log In</button>
-            </a>
-            <a href="https://accounts.random.org/" target="_blank">
-                <button class="px-4 py-2 text-sm font-bold text-dark-grey-500 bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
-            </a>
+    <div class="mx-auto bg-white px-4 py-4 sticky top-0">
+        <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
+            <!-- Logo -->
+            <div class="px-4">
+                <img class="h-8" src="assets/component-1/navigation/cache-bank-logo.png" alt="Company Logo">
+            </div>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center justify-between gap-12 text-dark-grey-900"> 
+                <!-- Navigation Links for Desktop -->
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
+            </div>
+            <!-- Desktop Buttons -->
+            <div class="hidden md:flex items-center gap-8">
+                <!-- Log In Button -->
+                <a href="https://accounts.random.org/" target="_blank">
+                    <button class="text-sm font-bold text-green-700 hover:text-dark-grey-900">Log In</button>
+                </a>
+                <!-- Sign Up Button -->
+                <a href="https://accounts.random.org/" target="_blank">
+                    <button class="px-4 py-2 text-sm font-bold text-dark-grey-900 bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
+                </a>
+            </div>
+            <!-- Hamburger svg button (not inside a div container)-->
+            <button class="md:hidden p-4" id="mobile-menu-toggle">
+                <!-- SVG -->
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+                    <g clip-path="url(#clip0_429_11066)">
+                        <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_429_11066">
+                            <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </button>
+            <!-- Mobile Menu -->
+            <div class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4 hidden" id="mobile-menu"> 
+                <!-- Navigation Links for Mobile -->
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Hero">Product</a>
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Features">Features</a>
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Getting-started">Get Started</a>
+                <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-gray-900" href="#Contact">Contact</a>
+                <!-- Mobile Buttons -->
+                <a href="https://accounts.random.org/" target="_blank">
+                    <button class="text-sm font-normal text-black">Log In</button>
+                </a>
+                <a href="https://accounts.random.org/" target="_blank">
+                    <button class="px-4 py-2 text-sm font-bold text-dark-grey-900 bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
+                </a>
+            </div>
         </div>
     </div>
-</div>
-
 
 <!--COMPONENT TWO: HERO AND ENDORSEMENTS-->
         <!--Hero section-->
@@ -177,7 +176,7 @@
             <!--Features grid container-->
             <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20">
                 <!--CARD 1-->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 ">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 group">
                     <!--SVG DIV-->
                     <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-green-500">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -187,11 +186,11 @@
                     <!--HEADER DIV-->
                     <div class="flex flex-col gap-2 text-center px-6">
                         <h4 class="text-2xl font-extrabold text-dark-grey-900">Developer-Focused Account Plans</h4>
-                        <p class="font-medium text-grey-700 hover:text-white-700">Tailored accoutns offering benefits like high-yield savings and exclusive investment options, designed specifically for software developers' financial needs and career growth</p>
+                        <p class="font-medium text-grey-700 group-hover:text-white">Tailored accounts offering benefits like high-yield savings and exclusive investment options, designed specifically for software developers' financial needs and career growth</p>
                     </div>
                 </div>
                 <!--CARD 2-->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 ">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 group">
                     <!--SVG DIV-->
                     <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-green-500" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -201,11 +200,11 @@
                     <!--HEADER DIV-->
                     <div class="flex flex-col gap-2 text-center px-6">
                         <h4 class="text-2xl font-extrabold text-dark-grey-900">Advanced Online Banking Platform</h4>
-                        <p class="font-medium text-grey-700 hover:text-white-700">A cutting-edge, intuitive online banking interface with features like API integrations, allowing developers to seamlessly manage finances alongside their coding projects.</p>
+                        <p class="font-medium text-grey-700 group-hover:text-white">A cutting-edge, intuitive online banking interface with features like API integrations, allowing developers to seamlessly manage finances alongside their coding projects.</p>
                     </div>
                 </div>
                 <!--CARD 3-->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 ">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 group">
                     <!--SVG DIV-->
                     <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-green-500">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -215,11 +214,11 @@
                     <!--HEADER DIV-->
                     <div class="flex flex-col gap-2 text-center px-6">
                         <h4 class="text-2xl font-extrabold text-dark-grey-900">Tech-Savvy Customer Support</h4>
-                        <p class="font-medium text-grey-700 hover:text-white-700">Expert support team with a deep understanding of the tech industry providing relevant financial advice and assistance specifically for software developers</p>
+                        <p class="font-medium text-grey-700 group-hover:text-white">Expert support team with a deep understanding of the tech industry providing relevant financial advice and assistance specifically for software developers</p>
                     </div>
                 </div>
                 <!--CARD 4-->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 ">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 group ">
                     <!--SVG DIV-->
                     <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-pink-500">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -229,11 +228,11 @@
                     <!--HEADER DIV-->
                     <div class="flex flex-col gap-2 text-center px-6">
                         <h4 class="text-2xl font-extrabold text-dark-grey-900">High-Level Security Features</h4>
-                        <p class="font-medium text-grey-700 hover:text-white-700">State-of-the-art cybersecurity measures, including multi-factor authentication and encryption, ensuring the safety of digital assests. which is crucial for tech proffesionals</p>
+                        <p class="font-medium text-grey-700 group-hover:text-white">State-of-the-art cybersecurity measures, including multi-factor authentication and encryption, ensuring the safety of digital assests. which is crucial for tech professionals</p>
                     </div>
                 </div>
                 <!--CARD 5-->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 ">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 group">
                     <!--SVG DIV-->
                     <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-pink-500">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -243,11 +242,11 @@
                     <!--HEADER DIV-->
                     <div class="flex flex-col gap-2 text-center px-6">
                         <h4 class="text-2xl font-extrabold text-dark-grey-900">Innovative Financial Tools</h4>
-                        <p class="font-medium text-grey-700 hover:text-white-700">Access to unique financial tools and resources, like project funding accounts and tech startup investment opportunities, catering o the entreprenurial spirirt of developers</p>
+                        <p class="font-medium text-grey-700 group-hover:text-white">Access to unique financial tools and resources, like project funding accounts and tech startup investment opportunities, catering to the entreprenurial spirit of developers</p>
                     </div>
                 </div>
                 <!--CARD 6-->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 ">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300 group">
                     <!--SVG DIV-->
                     <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-pink-500">
                         <svg
@@ -266,7 +265,7 @@
                     <!--HEADER DIV-->
                     <div class="flex flex-col gap-2 text-center px-6">
                         <h4 class="text-2xl font-extrabold text-dark-grey-900">Community and Networking Opportunities</h4>
-                        <p class="font-medium text-grey-700 hover:text-white-700">Exclusive access to tech events, webinars, and a community platform for networking, collaboration, and sharing insights within the software development industry</p>
+                        <p class="font-medium text-grey-700 group-hover:text-white">Exclusive access to tech events, webinars, and a community platform for networking, collaboration, and sharing insights within the software development industry</p>
                     </div>
                 </div>
             </div>
